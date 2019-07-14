@@ -1,9 +1,9 @@
 import java.util.Arrays;
 
 public class InsertSort {
-	public static void main(String[] args) {
-		int[] arr_test = {1,23,6,41,245,2,5635,465,357,5865,3,6256345};
-		System.out.println(Arrays.toString(InsertSort(arr_test)));
+    public static void main(String[] args) {
+	    int[] arr_test = {1,23,6,41,245,2,5635,465,357,5865,3,6256345};
+	    System.out.println(Arrays.toString(InsertSort(arr_test)));
 	}
 
 	public static int[] InsertSort(int[] arr) {
